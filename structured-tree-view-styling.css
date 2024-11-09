@@ -1,0 +1,53 @@
+/* Styling mod by @sudokunym 
+v 1.0 */
+
+/* Colour for text */
+.tree-item-inner {
+    color: #353535;
+}
+.collapse-icon svg.svg-icon  {
+    color: #464646;
+}
+
+/* Base */
+.workspace-leaf-content[data-type="structured-tree-view"], element.style {
+    background-color: #edf2fb;
+    border-radius: 10px;
+}
+
+/* Level 1 */
+.workspace-leaf-content[data-type="structured-tree-view"] .tree-item-children {
+    background-color: #e2eafc;
+    border-radius: 10px;
+}
+
+/* Level 2 */
+.workspace-leaf-content[data-type="structured-tree-view"] .tree-item-children > div > .tree-item-children {
+    background-color: #d7e3fc;
+    border-radius: 10px;
+}
+
+/* Level 3 */
+.workspace-leaf-content[data-type="structured-tree-view"] .tree-item-children > div > .tree-item-children > div > .tree-item-children {
+    background-color: #ccdbfd;
+    border-radius: 10px;
+}
+
+/* Level 4 */
+.workspace-leaf-content[data-type="structured-tree-view"] .tree-item-children > div > .tree-item-children > div > .tree-item-children > div > .tree-item-children {
+    background-color: #c1d3fe;
+    border-radius: 10px;
+}
+
+/* Level 5 */
+.workspace-leaf-content[data-type="structured-tree-view"] .tree-item-children > div > .tree-item-children > div > .tree-item-children > div > .tree-item-children > div > .tree-item-children {
+    background-color: #b6ccfe;
+    border-radius: 10px;
+}
+
+/* Level 6 */
+.workspace-leaf-content[data-type="structured-tree-view"] .tree-item-children > div > .tree-item-children > div > .tree-item-children > div > .tree-item-children > div > .tree-item-children > div > .tree-item-children > div > .tree-item-children {
+    background-color: #abc4ff;
+    border-radius: 10px;
+}
+/* .workspace-leaf-content[data-type="structured-tree-view"], */
